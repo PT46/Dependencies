@@ -32,3 +32,33 @@ plugins {
 ```
 implementation("androidx.work:work-runtime-ktx:2.9.0")
 ```
+
+# Jetpack Compose
+Project Level
+```
+alias(libs.plugins.ksp) apply false
+alias(libs.plugins.hilt) apply false
+```
+Module Level
+```
+alias(libs.plugins.ksp)
+alias(libs.plugins.hilt)
+```
+libs.versions.toml
+- [versions]
+``` 
+ksp-version = "2.1.0-1.0.29"
+hilt-version = "2.57.2"
+kotlin = "2.1.0"
+```
+- [libraries]
+```
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-version" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-version" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.2.0" }
+```
+- [plugins]
+```
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-version" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
+```
