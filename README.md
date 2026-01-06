@@ -41,8 +41,17 @@ alias(libs.plugins.hilt) apply false
 ```
 Module Level
 ```
-alias(libs.plugins.ksp)
-alias(libs.plugins.hilt)
+plugins {
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
+}
+```
+```
+dependencies {
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+    implementation(libs.hilt.navigation.compose)
+}
 ```
 libs.versions.toml
 - [versions]
