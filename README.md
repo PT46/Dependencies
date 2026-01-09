@@ -12,6 +12,11 @@ implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
 ```
 
+## Glide
+```
+implementation 'com.github.bumptech.glide:glide:5.0.5'
+```
+
 ## ViewModel (Not for Dagger VM)
 ```
 implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
