@@ -6,7 +6,7 @@ alias(libs.plugins.ksp) apply false
 alias(libs.plugins.hilt) apply false
 ```
 ## Module Level Plugins 
--- Jetbrains plugins shouldn't be there here. 
+- Jetbrains plugins shouldn't be there here. 
 ```
 alias(libs.plugins.ksp)
 alias(libs.plugins.hilt)
@@ -34,4 +34,12 @@ hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-com
 jetbrainsKotlin = {id = "org.jetbrains.kotlin.android",version.ref ="kotlin"}
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-version" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
+```
+
+
+# ROOM WITH HILT
+```
+implementation("androidx.room:room-runtime:2.7.0")
+implementation("androidx.room:room-ktx:2.7.0")
+ksp("androidx.room:room-compiler:2.7.0")
 ```
