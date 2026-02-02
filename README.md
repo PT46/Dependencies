@@ -76,3 +76,13 @@ hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-com
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-version" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
 ```
+
+## ViewPager
+```
+ // ViewPager2
+implementation("androidx.viewpager2:viewpager2:1.0.0")
+
+ // TabLayout (Material)
+implementation("com.google.android.material:material:1.11.0")
+
+```
