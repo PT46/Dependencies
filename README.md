@@ -86,3 +86,20 @@ implementation("androidx.viewpager2:viewpager2:1.0.0")
 implementation("com.google.android.material:material:1.11.0")
 
 ```
+
+## Testing 
+## Mock
+```
+testImplementation ('io.mockk:mockk:1.13.2')
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")
+    testImplementation ('androidx.arch.core:core-testing:2.1.0')
+
+```
+## Jetpack Testing
+```
+androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+
+debugImplementation("androidx.compose.ui:ui-test-manifest")
+```
+
+
