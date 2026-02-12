@@ -104,4 +104,23 @@ androidTestImplementation("androidx.compose.ui:ui-test-junit4")
 debugImplementation("androidx.compose.ui:ui-test-manifest")
 ```
 
+## Safe Args -- Navgraph
+- [Project Level]
+``` 
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        val nav_version = "2.9.7"
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+    }
+}
+```
+
+- [App Level]
+``` 
+id("androidx.navigation.safeargs")
+```
+
 
