@@ -123,7 +123,7 @@ buildscript {
 id("androidx.navigation.safeargs")
 ```
 
-##Navgraph
+## Navgraph
 ``` 
 // Navigation Component (Fragment + UI)
 implementation("androidx.navigation:navigation-fragment-ktx:2.8.6")
