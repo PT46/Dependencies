@@ -123,4 +123,11 @@ buildscript {
 id("androidx.navigation.safeargs")
 ```
 
+## viewModels() depedency
+``` 
+implementation("androidx.activity:activity-ktx:1.9.0")
+implementation("androidx.fragment:fragment-ktx:1.8.2")
+
+```
+
 
