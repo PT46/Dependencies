@@ -123,6 +123,15 @@ buildscript {
 id("androidx.navigation.safeargs")
 ```
 
+##Navgraph
+``` 
+// Navigation Component (Fragment + UI)
+implementation("androidx.navigation:navigation-fragment-ktx:2.8.6")
+implementation("androidx.navigation:navigation-ui-ktx:2.8.6")
+
+```
+
+
 ## viewModels() depedency
 ``` 
 implementation("androidx.activity:activity-ktx:1.9.0")
