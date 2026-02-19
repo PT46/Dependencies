@@ -139,4 +139,38 @@ implementation("androidx.fragment:fragment-ktx:1.8.2")
 
 ```
 
+## GraphQl depedency
+
+## Project Level
+
+``` 
+
+buildscript {
+    dependencies {
+        classpath("com.apollographql.apollo3:apollo-gradle-plugin:3.8.5")
+    }
+}
+
+```
+
+## App Level
+
+``` 
+
+implementation("com.apollographql.apollo3:apollo-runtime:3.8.5")
+
+```
+
+## After Android{}
+
+``` 
+
+apollo {
+    service("service") {
+        packageName.set("com.example.graphql")
+    }
+
+```
+
+
 
