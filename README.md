@@ -1,5 +1,13 @@
 # Dependencies
 
+## gradle properties(Android Stuido Panda)
+
+``` 
+
+kotlin.code.style=android.disallowKotlinSourceSets=false
+
+```
+
 ## Retrofit
 ```
 implementation("com.squareup.retrofit2:retrofit:2.10.0")
@@ -64,8 +72,8 @@ libs.versions.toml
 - [versions]
 ``` 
 ksp-version = "2.1.0-1.0.29"
-hilt-version = "2.57.2"
-kotlin = "2.1.0"
+hilt-version = "2.59.2"
+kotlin = "2.2.10"
 ```
 - [libraries]
 ```
