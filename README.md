@@ -27,6 +27,11 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
 implementation ("com.github.bumptech.glide:glide:5.0.5")
 ```
 
+## Picasso
+```
+implementation 'com.squareup.picasso:picasso:2.71828'
+```
+
 ## ViewModel (Not for Dagger VM)
 ```
 implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
