@@ -29,7 +29,7 @@ implementation ("com.github.bumptech.glide:glide:5.0.5")
 
 ## Picasso
 ```
-implementation 'com.squareup.picasso:picasso:2.71828'
+implementation("com.squareup.picasso:picasso:2.71828")
 ```
 
 ## ViewModel (Not for Dagger VM)
