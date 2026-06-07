@@ -93,6 +93,10 @@ hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-com
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-version" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
 ```
+-[compose libraries]
+```
+coreKtx = "1.17.0"
+```
 
 ## ViewPager
 ```
